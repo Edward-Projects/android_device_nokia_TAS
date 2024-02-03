@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=DRG
+export DEVICE=TAS
 export DEVICE_COMMON=sdm660-common
 export VENDOR=nokia
 

@@ -15,10 +15,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_DRG.mk
+    $(LOCAL_DIR)/lineage_TAS.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_DRG-eng \
-    lineage_DRG-user \
-    lineage_DRG-userdebug
+    lineage_TAS-eng \
+    lineage_TAS-user \
+    lineage_TAS-userdebug
 

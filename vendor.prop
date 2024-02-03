@@ -1,25 +1,22 @@
 # Audio
-debug.ftm.mixerpath=/vendor/etc/mixer_paths_drg.xml
+debug.ftm.mixerpath=/vendor/etc/mixer_paths_tas.xml
 
 # Bluetooth
-bluetooth.device.default_name=Nokia 6.1 Plus
+bluetooth.device.default_name=Nokia X71
 
 # Camera
-camera.ans.yproc.int.main=20,20,20,20
-camera.ans.uvproc.int.main=20,20,20,20
-camera.ans.scene.contract.main=0,0,0,0
-persist.capture.burst.exposures=0,-9,9
+camera.ans.yproc.int.main=30,50,50,60,60,60
+camera.ans.uvproc.int.main=40,40,50,60,40,40
+camera.ans.scene.contract.main=40,40,40,30,40,40
 persist.camera.ffcolor=FFBB77
 persist.camera.ffcolor.th=3500
-persist.camera.ffcolor.th2=4500
+persist.camera.ffcolor.th2=5000
 persist.camera.ffcolor.lev2=FFE4CA
 persist.camera.ffcolor.lev3=ffdcb9
 persist.vendor.camera.isp.turbo=1
-vendor.camera.hal1.packagelist=com.dw.btime
 
 # Fingerprint
-ro.hardware.fingerprint=gxfp3258_drg
-sys.fp.firmware.version=Goodix-0-V01.00.24.11
+ro.hardware.fingerprint=focaltech
 
 # Radio
 persist.radio.qcom_ext_enable=true
